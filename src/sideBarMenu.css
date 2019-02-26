@@ -64,25 +64,3 @@
   .bm-overlay {
     background: rgba(0, 0, 0, 0.3);
   }
-
-  .menu-item{
-    text-align: left;
-  }
-
-  @media screen and (min-width: 992px){
-    .my-sideBarMenu{
-      display: none;
-    }
-    .my-burgerButton{
-      display: none;
-    }
-  }
-
-  @media screen and (max-width: 992px){
-    .navbar-toggler{
-      display: none;
-    }
-    .navbar{
-      display: none;
-    }
-  }
