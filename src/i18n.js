@@ -20,12 +20,12 @@ i18n.init({
         cn:{
             translations: {
                 'title': '渥太华国语宣道会',
-                'home': '首页',
-                'about': '关于我们',
-                'events': '教会活动',
-                'worship': '聚会时间',
-                'contact':'联系我们',
-                'video': '视频下载',
+                'home': '首頁',
+                'about': '關於我們',
+                'events': '教會活動',
+                'worship': '參與教會',
+                'contact':'聯絡我們',
+                'video': '證道靈糧',
                 'verseOfDay': '神爱世人， 甚至将他的独生子赐给他们, 叫一切信他的不致灭亡， 反得永生。-- 约3:16',
             }
         }
