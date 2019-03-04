@@ -7,18 +7,18 @@ export default function MyCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src=".\pictures\Eric.webp"
+          src=".\assets\imgs\Eric.webp"
           alt="First slide alt"
         />
         <Carousel.Caption />
       </Carousel.Item>
       <Carousel.Item>
-        <img src=".\pictures\Sarah.webp" alt="Second slide alt" />
+        <img src=".\assets\imgs\Sarah.webp" alt="Second slide alt" />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src=".\pictures\Vincent.jpg"
+          src=".\assets\imgs\Vincent.jpg"
           alt="Second slide alt"
         />
       </Carousel.Item>

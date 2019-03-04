@@ -13,16 +13,12 @@ export default function Banner(props) {
       {/* <Image src=".\pictures\omacbanner-b.png" rounded fluid/> */}
       <Row className="m-1">
         <Col>
-                  <Image src=".\pictures\omacIcon.png" rounded fluid />
-          
+          <Image src=".\assets\imgs\omacIcon.png" rounded fluid />
         </Col>
         <Col xs={8} className="p-2">
-        
           <h1 className="my-title">{t("title")}</h1>
-        
         </Col>
       </Row>
-
     </Jumbotron>
   );
 }
