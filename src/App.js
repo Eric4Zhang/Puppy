@@ -22,7 +22,7 @@ export function App() {
       <Banner id="home" />
       <VerseOfDay />
       <MyCarousel jsonFileUrl="./assets/documents/events-images.json" />
-      <Jumbotron>
+      <Jumbotron className="shadow mb-5">
         <h1>欢迎</h1>
         <p>
           本教会于1995年9月成立于渥太华大学附近，为母堂（渥太华华人宣道会）针对国语及校园事工的植堂计划。

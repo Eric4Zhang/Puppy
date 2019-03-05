@@ -9,7 +9,7 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 export default function Banner(props) {
   const { t, i18n } = useTranslation("translations");
   return (
-    <Jumbotron className="App-header" id={props.id}>
+    <Jumbotron className="App-header shadow mb-4 mx-2" id={props.id}>
       {/* <Image src=".\pictures\omacbanner-b.png" rounded fluid/> */}
       <Row className="m-1">
         <Col>

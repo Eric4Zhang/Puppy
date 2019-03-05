@@ -6,8 +6,8 @@ import { useTranslation } from "react-i18next";
 export default function VerseOfDay() {
   const { t, i18n } = useTranslation("translations");
   return (
-    <div className="d-flex justify-content-center bg-light">
-      <Card bg="light" style={{ width: "40rem" }}>
+    <div className="d-flex justify-content-center bg-light shadow mb-4 mx-2">
+      <Card bg="light">
         <Card.Img src=".\assets\imgs\heaven.jpg" alt="background picture" />
         <Card.ImgOverlay>
           <Card.Body>
