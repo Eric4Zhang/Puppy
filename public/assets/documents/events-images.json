@@ -1,0 +1,22 @@
+[
+    {
+      "id":"image1",
+      "caption": "summer camp",
+      "description": "2019",
+      "path": "./assets/imgs/eric.webp"
+    },
+
+    {
+      "id":"image2",
+      "caption": "summer camp",
+      "description": "2019",
+      "path": "./assets/imgs/sarah.webp"
+    },
+
+    {
+      "id":"image3",
+      "caption": "summer camp",
+      "description": "2019",
+      "path": "./assets/imgs/vincent.jpg"
+    }
+  ]
