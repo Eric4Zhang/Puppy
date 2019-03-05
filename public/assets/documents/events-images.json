@@ -10,19 +10,5 @@
     "caption": "Holy Bible",
     "description": "Holy bible",
     "path": "https://pixabay.com/get/eb30b8072bf4023ed1534705fb0938c9bd22ffd41cb4104995f1c97cae/cross-2598303_1920.jpg"
-  },
-
-  {
-    "id": "image2",
-    "caption": "summer camp",
-    "description": "2019",
-    "path": "./assets/imgs/sarah.webp"
-  },
-
-  {
-    "id": "image3",
-    "caption": "summer camp",
-    "description": "2019",
-    "path": "./assets/imgs/vincent.jpg"
   }
 ]
