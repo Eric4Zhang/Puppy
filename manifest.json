@@ -16,6 +16,21 @@
       "src": "assets/imgs/eric.png",
       "sizes": "1024x1024",
       "type": "image/png"
+    },
+    {
+      "src": "assets/imgs/eric180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/imgs/eric167.png",
+      "sizes": "167x167",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/imgs/eric152.png",
+      "sizes": "152x152",
+      "type": "image/png"
     }
   ],
   "start_url": "index.html",

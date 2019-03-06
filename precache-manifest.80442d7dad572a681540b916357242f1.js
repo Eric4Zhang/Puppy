@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/omac-app/static/css/main.39105851.chunk.css"
   },
   {
-    "revision": "2430e58abc831f05c4338ebe3a0ad33b",
+    "revision": "8bcf224a2b48af43dc0d916347b0794f",
     "url": "/omac-app/index.html"
   }
 ];
