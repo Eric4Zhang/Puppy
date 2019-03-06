@@ -1,20 +1,35 @@
 {
-  "short_name": "渥太华国语宣道会",
+  "short_name": "渥宣",
   "name": "渥太华国语宣道会",
   "icons": [
     {
-      "src": "eric192.png",
+      "src": "assets/imgs/eric192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "eric512.png",
+      "src": "assets/imgs/eric512.png",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "eric.png",
+      "src": "assets/imgs/eric.png",
       "sizes": "1024x1024",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/imgs/eric180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/imgs/eric167.png",
+      "sizes": "167x167",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/imgs/eric152.png",
+      "sizes": "152x152",
       "type": "image/png"
     }
   ],
