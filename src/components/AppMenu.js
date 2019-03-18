@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+import NavDropdown from "react-bootstrap/NavDropdown";
 
 import { useTranslation } from "react-i18next";
 
@@ -19,11 +20,11 @@ export default function AppMenu() {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link href="#home">{t("home")}</Nav.Link>
-          <Nav.Link href="#contact">{t("about")}</Nav.Link>
-          <Nav.Link href="#events">{t("worship")}</Nav.Link>
-          <Nav.Link href="#About">{t("events")}</Nav.Link>
-          <Nav.Link href="#contact">{t("contact")}</Nav.Link>
-          <Nav.Link href="#video">{t("video")}</Nav.Link>
+          <Nav.Link href="#about">{t("about")}</Nav.Link>
+          <Nav.Link href="#participate">{t("participate")}</Nav.Link>
+          <Nav.Link href="#mission">{t("mission")}</Nav.Link>
+          <Nav.Link href="#resources">{t("resource")}</Nav.Link>
+          <Nav.Link href="#connect">{t("connect")}</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
