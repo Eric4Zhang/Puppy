@@ -21,6 +21,7 @@ i18n.init({
                 'beliefs': 'Our beliefs',
                 'history':'Our history',
                 'staff':'Our staff',
+                'ministry': 'Ministry',
                 'community': 'International Community of Alliance Churches',
 
                 // sub menu of participate
@@ -73,6 +74,7 @@ i18n.init({
                 'beliefs': '我們的信仰',
                 'history':'我們的歷史',
                 'staff':'教牧同工',
+                'ministry': '教會事工',
                 'community':'國際聯合社區教會',
 
                 // sub menu of participate
