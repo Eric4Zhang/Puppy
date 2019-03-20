@@ -72,9 +72,6 @@ h2.sidelinesdark span { display: inline-block; background:#343a40; padding:0 0.5
   top: 0rem;
   z-index: 1;
 }
-.nav-link-white{
-  color:#dbdfe2!important;
-}
 
 
 @keyframes App-logo-spin {
