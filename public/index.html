@@ -30,6 +30,39 @@
     -->
     <title>渥太华国语宣道会</title>
     <link rel="stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <script>     
+      var changeBackground = function(){
+        var navBar = document.getElementById("myNavbar");
+        var navLinks = document.getElementsByClassName("nav-link");
+        
+        if(window.pageYOffset > 50){
+          navBar.classList.add("bg-light");                  
+        }else{
+          navBar.classList.remove("bg-light");          
+        }
+      };
+
+      var waiting = false, endScrollHandle;
+
+      window.onscroll = function(){
+        if(waiting){
+          return;
+        }
+
+        waiting = true;
+        clearTimeout(endScrollHandle);
+
+        changeBackground();
+
+        setTimeout(function(){
+          waiting = false;
+        }, 100);
+
+        endScrollHandle = setTimeout(function(){
+          changeBackground();
+        }, 200);
+      };
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

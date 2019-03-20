@@ -13,7 +13,7 @@ export default function MyCarousel(props) {
   }, []);
 
   return (
-    <Carousel indicators={false} controls={false} className="bg-light shadow mb-4">
+    <Carousel id={props.id} indicators={false} controls={false} className="shadow mb-4 h-100">
       {images.map(image => (
         <Carousel.Item key={image.id}>
           <img className="d-block w-100" src={image.path} alt={image.caption} />

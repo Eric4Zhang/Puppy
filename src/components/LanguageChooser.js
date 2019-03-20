@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 export default function LanguageChooser() {
   const { t, i18n } = useTranslation("translations");
   return (
-    <ButtonToolbar className="mt-2 bg-light my-toolbar">
+    <ButtonToolbar className="shadow float-right">
       <Button
         variant="outline-success"
         onClick={() => i18n.changeLanguage("en")}

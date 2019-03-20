@@ -58,13 +58,22 @@ h2.sidelinesdark span { display: inline-block; background:#343a40; padding:0 0.5
 
 .my-toolbar {  
   position: fixed;
-  top: 0rem;
+  
+  top: 1rem;
   right: 1rem;
-  z-index: 2;
+  z-index: 2;  
 }
 
+
+
 .my-navbar {  
+  
+  position: fixed;
+  top: 0rem;
   z-index: 1;
+}
+.nav-link-white{
+  color:#dbdfe2!important;
 }
 
 
@@ -82,3 +91,4 @@ h2.sidelinesdark span { display: inline-block; background:#343a40; padding:0 0.5
     margin-top: 1rem;
   }
 }
+

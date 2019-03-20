@@ -22,10 +22,14 @@ export function App() {
   const { t, i18n } = useTranslation("translations");
   return (
     <div className="App">
-      <LanguageChooser />
+      {/* <LanguageChooser />
+      <AppMenu /> */}
+      {/* <Banner id="home" /> */}
+      <MyCarousel jsonFileUrl="./assets/documents/events-images.json" id="home"/>
+      <div className="my-navbar w-100" id="myNavbar">
       <AppMenu />
-      <Banner id="home" />
-      <MyCarousel jsonFileUrl="./assets/documents/events-images.json" />
+      </div>
+      
       <Jumbotron className="mb-4 App-header" id="about" bg="light">
         <h2 className="sidelines mb-5">
           <span className="text-secondary">{t("about")}</span>
