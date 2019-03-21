@@ -1,13 +1,13 @@
 {
-  "main.css": "/omac-app/static/css/main.09000687.chunk.css",
-  "main.js": "/omac-app/static/js/main.23c12531.chunk.js",
-  "main.js.map": "/omac-app/static/js/main.23c12531.chunk.js.map",
-  "runtime~main.js": "/omac-app/static/js/runtime~main.dbd0042f.js",
-  "runtime~main.js.map": "/omac-app/static/js/runtime~main.dbd0042f.js.map",
-  "static/js/2.3f821b40.chunk.js": "/omac-app/static/js/2.3f821b40.chunk.js",
-  "static/js/2.3f821b40.chunk.js.map": "/omac-app/static/js/2.3f821b40.chunk.js.map",
+  "main.css": "/omac-app/static/css/main.6a572a6d.chunk.css",
+  "main.js": "/omac-app/static/js/main.1445461a.chunk.js",
+  "main.js.map": "/omac-app/static/js/main.1445461a.chunk.js.map",
+  "runtime~main.js": "/omac-app/static/js/runtime~main.5f93b1a2.js",
+  "runtime~main.js.map": "/omac-app/static/js/runtime~main.5f93b1a2.js.map",
+  "static/js/2.99872b5c.chunk.js": "/omac-app/static/js/2.99872b5c.chunk.js",
+  "static/js/2.99872b5c.chunk.js.map": "/omac-app/static/js/2.99872b5c.chunk.js.map",
   "index.html": "/omac-app/index.html",
-  "precache-manifest.a615b6e5ec734df975e2f1ef9829fa3a.js": "/omac-app/precache-manifest.a615b6e5ec734df975e2f1ef9829fa3a.js",
+  "precache-manifest.3fe570cb75a247e11cd685b193d09120.js": "/omac-app/precache-manifest.3fe570cb75a247e11cd685b193d09120.js",
   "service-worker.js": "/omac-app/service-worker.js",
-  "static/css/main.09000687.chunk.css.map": "/omac-app/static/css/main.09000687.chunk.css.map"
+  "static/css/main.6a572a6d.chunk.css.map": "/omac-app/static/css/main.6a572a6d.chunk.css.map"
 }
