@@ -30,12 +30,12 @@ export function App() {
       <AppMenu />
       </div>
       
-      <Jumbotron className="mb-4 App-header" id="about" bg="light">
+      <Jumbotron className="mb-4 App-header b-light" id="about">
         <h2 className="sidelines mb-5">
           <span className="text-secondary">{t("about")}</span>
         </h2>
         <CardDeck>
-          <Card border="info" text="secondary">
+          <Card border="none" text="secondary" className="bg-light border-0 shadow">
             <Card.Body>
               <a href="#about">
                 <BookOpen size={64} color="MEDIUMAQUAMARINE" />
@@ -49,7 +49,7 @@ export function App() {
             </Card.Body>
           </Card>
 
-          <Card border="info" text="secondary">
+          <Card text="secondary" className="bg-light border-0 shadow">
             <Card.Body>
               <a href="#about">
                 <Clock size={64} color="MEDIUMAQUAMARINE" />
@@ -63,7 +63,7 @@ export function App() {
             </Card.Body>
           </Card>
 
-          <Card border="info" text="secondary">
+          <Card text="secondary" className="bg-light border-0 shadow">
             <Card.Body>
               <a href="#about">
                 <Users size={64} color="MEDIUMAQUAMARINE" />
@@ -98,7 +98,7 @@ export function App() {
             </Card.Body>
           </Card>
 
-          <Card border="info" text="secondary">
+          <Card text="secondary" className="bg-light border-0 shadow">
             <Card.Body>
               <a href="#ministry">
                 <Globe size={64} color="MEDIUMAQUAMARINE" />
@@ -110,7 +110,7 @@ export function App() {
             </Card.Body>
           </Card>
 
-          <Card border="info">
+          <Card className="bg-light border-0 shadow">
             <Card.Body>
               <a href="#about">
                 <Globe size={64} color="MEDIUMAQUAMARINE" />
@@ -123,15 +123,15 @@ export function App() {
         </CardDeck>
       </Jumbotron>
 
-      <Jumbotron className="mb-4 App-header" id="participate" bg="light">     
-        <h2 className="sidelines mb-5">
-          <span className="text-secondary">{t("participate")}</span>
+      <Jumbotron className="mb-4 App-header bg-secondary" id="participate">     
+        <h2 className="sidelinesdark mb-5">
+          <span className="text-light">{t("participate")}</span>
         </h2>
         <CardDeck>
-          <Card border="info" text="secondary">
+          <Card className="bg-secondary border-0 shadow">
             <Card.Body>
               <a href="#participate">
-                <Card.Text className="my-2 text-secondary">
+                <Card.Text className="my-2 text-light">
                   {t("worship")}
                 </Card.Text>
               </a>
@@ -141,20 +141,20 @@ export function App() {
             </Card.Body>
           </Card>
 
-          <Card border="info" text="secondary">
+          <Card className="bg-secondary border-0 shadow">
             <Card.Body>
               <a href="#participate">
-                <Card.Text className="my-2 text-secondary">
+                <Card.Text className="my-2 text-light">
                   {t("cell")}
                 </Card.Text>
               </a>
             </Card.Body>
           </Card>
 
-          <Card border="info" text="secondary">
+          <Card className="bg-secondary border-0 shadow">
             <Card.Body>
               <a href="#universityFellowship">
-                <Card.Text className="text-secondary my-2">
+                <Card.Text className="text-light my-2">
                   {t("universityFellowship")}
                 </Card.Text>
               </a>
@@ -162,30 +162,30 @@ export function App() {
             </Card.Body>
           </Card>
 
-          <Card border="info" text="secondary">
+          <Card className="bg-secondary border-0 shadow">
             <Card.Body>
               <a href="#youthFellowship">
-                <Card.Text className="text-secondary my-2">
+                <Card.Text className="text-light my-2">
                   {t("youthFellowship")}
                 </Card.Text>
               </a>
             </Card.Body>
           </Card>
 
-          <Card border="info">
+          <Card className="bg-secondary border-0 shadow">
             <Card.Body>
               <a href="#about">
-                <Card.Text className="my-2 text-secondary">
+                <Card.Text className="my-2 text-light">
                   {t("childrenActivity")}
                 </Card.Text>
               </a>
             </Card.Body>
           </Card>
 
-          <Card border="info">
+          <Card className="bg-secondary border-0 shadow">
             <Card.Body>
               <a href="#about">
-                <Card.Text className="my-2 text-secondary">
+                <Card.Text className="my-2 text-light">
                   {t("training")}
                 </Card.Text>
               </a>
@@ -194,12 +194,12 @@ export function App() {
         </CardDeck>
       </Jumbotron>
 
-      <Jumbotron className="mb-4 App-header" id="events" bg="dark">
+      <Jumbotron className="mb-4 App-header bg-light" id="events">
         <h2 className="sidelines mb-5">
           <span className="text-secondary">{t("events")}</span>
         </h2>
         <CardDeck>
-          <Card border="info" text="secondary">
+          <Card className="bg-light border-0 shadow">
             <Card.Body>
               <a href="#participate">
                 <Card.Text className="my-2 text-secondary">
@@ -209,7 +209,7 @@ export function App() {
             </Card.Body>
           </Card>
 
-          <Card border="info" text="secondary">
+          <Card className="bg-light border-0 shadow">
             <Card.Body>
               <a href="#participate">
                 <Card.Text className="my-2 text-secondary">
@@ -219,7 +219,7 @@ export function App() {
             </Card.Body>
           </Card>
 
-          <Card border="info" text="secondary">
+          <Card className="bg-light border-0 shadow">
             <Card.Body>
               <a href="#universityFellowship">
                 <Card.Text className="text-secondary my-2">
@@ -230,7 +230,7 @@ export function App() {
             </Card.Body>
           </Card>
 
-          <Card border="info" text="secondary">
+          <Card className="bg-light border-0 shadow">
             <Card.Body>
               <a href="#universityFellowship">
                 <Card.Text className="text-secondary my-2">
@@ -244,35 +244,35 @@ export function App() {
         </CardDeck>
       </Jumbotron>
 
-      <Jumbotron className="mb-4 App-header" id="mission" bg="light">
-        <h2 className="sidelines mb-5">
-          <span className="text-secondary">{t("mission")}</span>
+      <Jumbotron className="mb-4 App-header bg-secondary" id="mission">
+        <h2 className="sidelinesdark mb-5">
+          <span className="text-light">{t("mission")}</span>
         </h2>
         <CardDeck>
-          <Card border="info" text="secondary">
+          <Card className="bg-secondary border-0 shadow">
             <Card.Body>
               <a href="#participate">
-                <Card.Text className="my-2 text-secondary">
+                <Card.Text className="my-2 text-light">
                   {t("vision")}
                 </Card.Text>
               </a>
             </Card.Body>
           </Card>
 
-          <Card border="info" text="secondary">
+          <Card className="bg-secondary border-0 shadow">
             <Card.Body>
               <a href="#participate">
-                <Card.Text className="my-2 text-secondary">
+                <Card.Text className="my-2 text-light">
                   {t("missionaryStory")}
                 </Card.Text>
               </a>
             </Card.Body>
           </Card>
 
-          <Card border="info" text="secondary">
+          <Card className="bg-secondary border-0 shadow">
             <Card.Body>
               <a href="#universityFellowship">
-                <Card.Text className="text-secondary my-2">
+                <Card.Text className="text-light my-2">
                   {t("joinMission")}
                 </Card.Text>
               </a>
@@ -280,10 +280,10 @@ export function App() {
             </Card.Body>
           </Card>
 
-          <Card border="info" text="secondary">
+          <Card className="bg-secondary border-0 shadow">
             <Card.Body>
               <a href="#donate">
-                <Card.Text className="text-secondary my-2">
+                <Card.Text className="text-light my-2">
                   {t("donate")}
                 </Card.Text>
               </a>
@@ -294,12 +294,12 @@ export function App() {
         </CardDeck>
       </Jumbotron>
 
-      <Jumbotron className="mb-4 App-header bg-dark" id="resource">
-        <h2 className="sidelinesdark mb-5">
+      <Jumbotron className="mb-4 App-header bg-light" id="resource">
+        <h2 className="sidelines mb-5">
           <span className="text-secondary">{t("resource")}</span>
         </h2>
         <CardDeck>
-          <Card border='dark' text="secondary" bg='dark'>
+          <Card className="bg-light border-0 shadow">
             <Card.Body>
               <a href="#participate">
                 <Card.Text className="my-2 text-secondary">
@@ -309,7 +309,7 @@ export function App() {
             </Card.Body>
           </Card>
 
-          <Card border="dark" bg='dark' text="secondary">
+          <Card className="bg-light border-0 shadow">
             <Card.Body>
               <a href="#participate">
                 <Card.Text className="my-2 text-secondary">
@@ -319,7 +319,7 @@ export function App() {
             </Card.Body>
           </Card>
 
-          <Card border="dark" bg='dark' text="secondary">
+          <Card className="bg-light border-0 shadow">
             <Card.Body>
               <a href="#universityFellowship">
                 <Card.Text className="text-secondary my-2">
@@ -330,7 +330,7 @@ export function App() {
             </Card.Body>
           </Card>
 
-          <Card border="dark" bg='dark' text="secondary">
+          <Card className="bg-light border-0 shadow">
             <Card.Body>
               <a href="#youthFellowship">
                 <Card.Text className="text-secondary my-2">
@@ -340,7 +340,7 @@ export function App() {
             </Card.Body>
           </Card>
 
-          <Card border="dark" bg='dark'>
+          <Card className="bg-light border-0 shadow">
             <Card.Body>
               <a href="#about">
                 <Card.Text className="my-2 text-secondary">
@@ -354,35 +354,35 @@ export function App() {
         </CardDeck>
       </Jumbotron>
 
-      <Jumbotron className="mb-4 App-header" id="connect" bg="light">
-        <h2 className="sidelines mb-5">
-          <span className="text-secondary">{t("connect")}</span>
+      <Jumbotron className="mb-4 App-header bg-secondary" id="connect">
+        <h2 className="sidelinesdark mb-5">
+          <span className="text-light">{t("connect")}</span>
         </h2>
         <CardDeck>
-          <Card border="info" text="secondary">
+          <Card className="bg-secondary border-0 shadow">
             <Card.Body>
               <a href="#participate">
-                <Card.Text className="my-2 text-secondary">
+                <Card.Text className="my-2 text-light">
                   {t("newPeople")}
                 </Card.Text>
               </a>
             </Card.Body>
           </Card>
 
-          <Card border="info" text="secondary">
+          <Card className="bg-secondary border-0 shadow">
             <Card.Body>
               <a href="#participate">
-                <Card.Text className="my-2 text-secondary">
+                <Card.Text className="my-2 text-light">
                   {t("connectGroup")}
                 </Card.Text>
               </a>
             </Card.Body>
           </Card>
 
-          <Card border="info" text="secondary">
+          <Card className="bg-secondary border-0 shadow">
             <Card.Body>
               <a href="#universityFellowship">
-                <Card.Text className="text-secondary my-2">
+                <Card.Text className="text-light my-2">
                   {t("contact")}
                 </Card.Text>
               </a>
@@ -393,7 +393,6 @@ export function App() {
                    
         </CardDeck>
       </Jumbotron>
-      <VideoCollection id="resource" />
 
       <MyFooter id="contact" />
     </div>

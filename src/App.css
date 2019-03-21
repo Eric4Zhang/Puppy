@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background: #f8f9fa;
+  background: bg-light;
 }
 
 .App-logo {
@@ -38,11 +38,11 @@
   font-size: 1.6rem;
 }
 
-h2.sidelines { text-align: center; border-bottom: 1px solid rgb(211, 208, 208); height: 0.75em; }
+h2.sidelines { text-align: center; border-bottom: 1px solid #b4b8b8; height: 0.75em; }
 h2.sidelines span { display: inline-block; background: #f8f9fa; padding:0 0.5em; }
 
 h2.sidelinesdark { text-align: center; border-bottom: 1px solid rgb(211, 208, 208); height: 0.75em; }
-h2.sidelinesdark span { display: inline-block; background:#343a40; padding:0 0.5em; }
+h2.sidelinesdark span { display: inline-block; background: #6c757d; padding:0 0.5em; }
 
 @media screen and (max-width: 991.98px) and (min-width:768px){
   .my-title{
@@ -72,7 +72,6 @@ h2.sidelinesdark span { display: inline-block; background:#343a40; padding:0 0.5
   top: 0rem;
   z-index: 1;
 }
-
 
 @keyframes App-logo-spin {
   from {
