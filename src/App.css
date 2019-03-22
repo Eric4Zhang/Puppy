@@ -38,6 +38,13 @@
   font-size: 1.6rem;
 }
 
+.card:hover{
+  background-color: rgba(108, 117, 125, 0.1);
+  -webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;	
+}
+
 .my-transparentDark{
   background-color: rgba(108, 117, 125, 0.93);
 }

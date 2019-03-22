@@ -35,7 +35,7 @@ export function App() {
           <span className="text-secondary">{t("about")}</span>
         </h2>
         <CardDeck>
-          <Card border="none" text="secondary" className="bg-light border-0 shadow-lg">
+          <Card border="none" text="secondary" className="border-0 shadow-lg">
             <Card.Body>
               <a href="#about">
                 <BookOpen size={64} color="MEDIUMAQUAMARINE" />
@@ -49,7 +49,7 @@ export function App() {
             </Card.Body>
           </Card>
 
-          <Card text="secondary" className="bg-light border-0 shadow-lg">
+          <Card text="secondary" className="border-0 shadow-lg">
             <Card.Body>
               <a href="#about">
                 <Clock size={64} color="MEDIUMAQUAMARINE" />
@@ -63,7 +63,7 @@ export function App() {
             </Card.Body>
           </Card>
 
-          <Card text="secondary" className="bg-light border-0 shadow-lg">
+          <Card text="secondary" className="border-0 shadow-lg">
             <Card.Body>
               <a href="#about">
                 <Users size={64} color="MEDIUMAQUAMARINE" />
@@ -98,7 +98,7 @@ export function App() {
             </Card.Body>
           </Card>
 
-          <Card text="secondary" className="bg-light border-0 shadow-lg">
+          <Card text="secondary" className="border-0 shadow-lg">
             <Card.Body>
               <a href="#ministry">
                 <Globe size={64} color="MEDIUMAQUAMARINE" />
@@ -110,7 +110,7 @@ export function App() {
             </Card.Body>
           </Card>
 
-          <Card className="bg-light border-0 shadow-lg">
+          <Card className="border-0 shadow-lg">
             <Card.Body>
               <a href="#about">
                 <Globe size={64} color="MEDIUMAQUAMARINE" />
@@ -199,7 +199,7 @@ export function App() {
           <span className="text-secondary">{t("events")}</span>
         </h2>
         <CardDeck>
-          <Card className="bg-light border-0 shadow-lg">
+          <Card className=" border-0 shadow-lg">
             <Card.Body>
               <a href="#participate">
                 <Card.Text className="my-2 text-secondary">
@@ -209,7 +209,7 @@ export function App() {
             </Card.Body>
           </Card>
 
-          <Card className="bg-light border-0 shadow-lg">
+          <Card className=" border-0 shadow-lg">
             <Card.Body>
               <a href="#participate">
                 <Card.Text className="my-2 text-secondary">
@@ -219,7 +219,7 @@ export function App() {
             </Card.Body>
           </Card>
 
-          <Card className="bg-light border-0 shadow-lg">
+          <Card className=" border-0 shadow-lg">
             <Card.Body>
               <a href="#universityFellowship">
                 <Card.Text className="text-secondary my-2">
@@ -230,7 +230,7 @@ export function App() {
             </Card.Body>
           </Card>
 
-          <Card className="bg-light border-0 shadow-lg">
+          <Card className=" border-0 shadow-lg">
             <Card.Body>
               <a href="#universityFellowship">
                 <Card.Text className="text-secondary my-2">
@@ -299,7 +299,7 @@ export function App() {
           <span className="text-secondary">{t("resource")}</span>
         </h2>
         <CardDeck>
-          <Card className="bg-light border-0 shadow-lg">
+          <Card className=" border-0 shadow-lg">
             <Card.Body>
               <a href="#participate">
                 <Card.Text className="my-2 text-secondary">
@@ -309,7 +309,7 @@ export function App() {
             </Card.Body>
           </Card>
 
-          <Card className="bg-light border-0 shadow-lg">
+          <Card className=" border-0 shadow-lg">
             <Card.Body>
               <a href="#participate">
                 <Card.Text className="my-2 text-secondary">
@@ -319,7 +319,7 @@ export function App() {
             </Card.Body>
           </Card>
 
-          <Card className="bg-light border-0 shadow-lg">
+          <Card className=" border-0 shadow-lg">
             <Card.Body>
               <a href="#universityFellowship">
                 <Card.Text className="text-secondary my-2">
@@ -330,7 +330,7 @@ export function App() {
             </Card.Body>
           </Card>
 
-          <Card className="bg-light border-0 shadow-lg">
+          <Card className=" border-0 shadow-lg">
             <Card.Body>
               <a href="#youthFellowship">
                 <Card.Text className="text-secondary my-2">
@@ -340,7 +340,7 @@ export function App() {
             </Card.Body>
           </Card>
 
-          <Card className="bg-light border-0 shadow-lg">
+          <Card className=" border-0 shadow-lg">
             <Card.Body>
               <a href="#about">
                 <Card.Text className="my-2 text-secondary">
