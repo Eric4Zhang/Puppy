@@ -38,6 +38,10 @@
   font-size: 1.6rem;
 }
 
+.my-transparentDark{
+  background-color: rgba(108, 117, 125, 0.93);
+}
+
 h2.sidelines { text-align: center; border-bottom: 1px solid #b4b8b8; height: 0.75em; }
 h2.sidelines span { display: inline-block; background: #f8f9fa; padding:0 0.5em; }
 
