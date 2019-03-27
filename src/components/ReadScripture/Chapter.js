@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import jQuery from "jquery";
 
 export default function Chapter(props) {
-  const getBibleApi = "http://getbible.net/json?";
+  const getBibleApi = "https://getbible.net/json?";
   const version = "cus";
   const book = props.match.params.book;
   const chapterIndex = props.match.params.chapter;
