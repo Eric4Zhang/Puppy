@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
+
 import jQuery from "jquery";
+
 
 export default function Chapter(props) {
   const getBibleApi = "https://getbible.net/json?";
@@ -42,7 +44,7 @@ export default function Chapter(props) {
   }, [book, chapterIndex]);
 
   return (
-    <Container>
+    <Container className="mt-1 p-5">      
       <h2>{title}</h2>
       {Object.keys(verses).map(v => (
         <span key={verses[v].verse_nr}>

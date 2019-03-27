@@ -5,7 +5,7 @@ import { PhoneCall, Mail, Home } from "react-feather";
 
 export default function MyFooter(props) {
   return (
-    <footer className="App-header" id={props.id}>
+    <footer className="App-header mt-2" id={props.id}>
       <Col>
         <h4> {"\u00A9"} 2019 Ottawa Mandarin Alliance Church</h4>
         <address className="address">

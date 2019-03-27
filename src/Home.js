@@ -5,10 +5,20 @@ import CardDeck from "react-bootstrap/CardDeck";
 import { BookOpen, Clock, Users, Globe } from "react-feather";
 import { useTranslation } from "react-i18next";
 
+import AppMenu from "./components/AppMenu";
+import MyCarousel from "./components/MyCarousel";
+
 export default function Home() {
   const { t, i18n } = useTranslation("translations");
   return (
     <div>
+      <MyCarousel
+        jsonFileUrl="./assets/documents/events-images.json"
+        id="home"
+      />
+      <div className="my-navbar w-100" id="myNavbar">
+        <AppMenu />
+      </div>
       <Jumbotron className="mb-4 App-header b-light" id="about">
         <h2 className="shadow-lg mb-5 p-3">
           <span className="text-secondary">{t("about")}</span>
