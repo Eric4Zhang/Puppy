@@ -6,7 +6,7 @@ import Chapter from "./Chapter";
 
 export default function Scripture(){
     return (
-        <div className="bg-secondary">
+        <div>
             <Route exact path="/omac-app/bible" component={BooksCatalog}/>
             <Route exact path="/omac-app/bible/:book" component={ChapterList}/>
             <Route exact path="/omac-app/bible/:book/:chapter" component={Chapter}/>
