@@ -18,6 +18,7 @@ export default function AppMenu() {
           <Nav.Link href="#mission">{t("mission")}</Nav.Link>
           <Nav.Link href="#resources">{t("resource")}</Nav.Link>
           <Nav.Link href="#connect">{t("connect")}</Nav.Link>
+          <Nav.Link href="/omac-app/bible">读经</Nav.Link>
         </Nav>
         
       </Navbar.Collapse>
