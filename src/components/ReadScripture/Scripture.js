@@ -10,12 +10,12 @@ import "./fade.css";
 export default function Scripture() {
   return (
     <div>
-      <Container className="d-flex flex-row-reverse mr-5 mt-5 sticky-top">
+      <Container className="flex-row-reverse mt-2 sticky-top">        
+        <Link className="mr-4" to={"/omac-app/bible"}>卷</Link>
         <Link to={"/omac-app/bible/" + localStorage.getItem("book")}>章</Link>
-        <Link className="mr-2" to={"/omac-app/bible"}>
-          卷
-        </Link>
+        <hr/>
       </Container>
+      
       <CSSTransition classNames="fade" timeout={300}>
         <Switch>
           <Route exact path="/omac-app/bible" component={BooksCatalog} />

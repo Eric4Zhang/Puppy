@@ -33,6 +33,7 @@
     <script>     
       var changeBackground = function(){
         var navBar = document.getElementById("myNavbar");
+        if(navBar == null) return;
         var navLinks = document.getElementsByClassName("nav-link");
         
         if(window.pageYOffset > 50){

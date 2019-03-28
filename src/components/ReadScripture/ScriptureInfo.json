@@ -1,0 +1,542 @@
+{
+  "oldTestament": {
+    "gen": {
+      "fullName": "創世記",
+      "abbr": "創",
+      "chapter": "50",
+      "video": "GQI72THyO5I,sT67Uat1uoE"
+    },
+    "ex": {
+      "fullName": "出埃及記",
+      "abbr": "出",
+      "chapter": "40",
+      "video": "mjnVgCHbLp0,dbNqDrBMoBo"
+    },
+    "lev": {
+      "fullName": "利未記",
+      "abbr": "利",
+      "chapter": "27",
+      "video": "WEKWQtAd_x0"
+    },
+    "num": {
+      "fullName": "民數記",
+      "abbr": "民",
+      "chapter": "36",
+      "video": "qBJDorKYt4U"
+    },
+    "de": {
+      "fullName": "申命記",
+      "abbr": "申",
+      "chapter": "34",
+      "video": "q5QEH9bH8AU"
+    },
+    "jos": {
+      "fullName": "約書亞記",
+      "abbr": "書",
+      "chapter": "24",
+      "id": "jos",
+      "video": "JqOqJlFF_eU"
+    },
+    "ju": {
+      "fullName": "士師記",
+      "abbr": "士",
+      "chapter": "21",
+      "id": "ju",
+      "video": "kOYy8iCfIJ4"
+    },
+    "ruth": {
+      "fullName": "路得記",
+      "abbr": "得",
+      "chapter": "4",
+      "id": "ruth",
+      "video": "qBJDorKYt4U"
+    },
+    "1sam": {
+      "fullName": "撒母耳記上",
+      "abbr": "撒上",
+      "chapter": "31",
+      "id": "1sam",
+      "video": ""
+    },
+    "2sam": {
+      "fullName": "撒母耳記下",
+      "abbr": "撒下",
+      "chapter": "24",
+      "id": "2sam",
+      "video": ""
+    },
+    "1ki": {
+      "fullName": "列王紀上",
+      "abbr": "王上",
+      "chapter": "22",
+      "id": "1ki",
+      "video": ""
+    },
+    "2ki": {
+      "fullName": "列王紀下",
+      "abbr": "王下",
+      "chapter": "25",
+      "id": "2ki",
+      "video": ""
+    },
+    "1ch": {
+      "fullName": "歷代志上",
+      "abbr": "代上",
+      "chapter": "29",
+      "id": "1ch",
+      "video": ""
+    },
+    "2ch": {
+      "fullName": "歷代志下",
+      "abbr": "代下",
+      "chapter": "36",
+      "id": "2ch",
+      "video": ""
+    },
+    "ezra": {
+      "fullName": "以斯拉記",
+      "abbr": "拉",
+      "chapter": "10",
+      "id": "ezra",
+      "video": ""
+    },
+    "neh": {
+      "fullName": "尼希米記",
+      "abbr": "尼",
+      "chapter": "13",
+      "id": "neh",
+      "video": ""
+    },
+    "esther": {
+      "fullName": "以斯帖記",
+      "abbr": "斯",
+      "chapter": "10",
+      "id": "esther",
+      "video": ""
+    },
+    "job": {
+      "fullName": "約伯記",
+      "abbr": "伯",
+      "chapter": "42",
+      "id": "job",
+      "video": ""
+    },
+    "ps": {
+      "fullName": "詩篇",
+      "abbr": "詩",
+      "chapter": "150",
+      "id": "ps",
+      "video": ""
+    },
+    "pro": {
+      "fullName": "箴言",
+      "abbr": "箴",
+      "chapter": "31",
+      "id": "pro",
+      "video": ""
+    },
+    "ec": {
+      "fullName": "傳道書",
+      "abbr": "傳",
+      "chapter": "12",
+      "id": "ec",
+      "video": ""
+    },
+    "song": {
+      "fullName": "雅歌",
+      "abbr": "歌",
+      "chapter": "8",
+      "id": "song",
+      "video": ""
+    },
+    "isa": {
+      "fullName": "以賽亞書",
+      "abbr": "賽",
+      "chapter": "66",
+      "id": "isa",
+      "video": ""
+    },
+    "jer": {
+      "fullName": "耶利米書",
+      "abbr": "耶",
+      "chapter": "52",
+      "id": "jer",
+      "video": ""
+    },
+    "lam": {
+      "fullName": "耶利米哀歌",
+      "abbr": "哀",
+      "chapter": "5",
+      "id": "lam",
+      "video": ""
+    },
+    "ez": {
+      "fullName": "以西結書",
+      "abbr": "結",
+      "chapter": "48",
+      "id": "ez",
+      "video": ""
+    },
+    "dan": {
+      "fullName": "但以理書",
+      "abbr": "但",
+      "chapter": "12",
+      "id": "dan",
+      "video": ""
+    },
+    "hos": {
+      "fullName": "何西阿書",
+      "abbr": "何",
+      "chapter": "14",
+      "id": "hos",
+      "video": ""
+    },
+    "joel": {
+      "fullName": "約珥書",
+      "abbr": "珥",
+      "chapter": "3",
+      "id": "joel",
+      "video": ""
+    },
+    "amos": {
+      "fullName": "阿摩司書",
+      "abbr": "摩",
+      "chapter": "9",
+      "id": "amos",
+      "video": ""
+    },
+    "obad": {
+      "fullName": "俄巴底亞書",
+      "abbr": "俄",
+      "chapter": "1",
+      "id": "obad",
+      "video": ""
+    },
+    "jonah": {
+      "fullName": "約拿書",
+      "abbr": "拿",
+      "chapter": "4",
+      "id": "jonah",
+      "video": ""
+    },
+    "mic": {
+      "fullName": "彌迦書",
+      "abbr": "彌",
+      "chapter": "7",
+      "id": "mic",
+      "video": ""
+    },
+    "nah": {
+      "fullName": "那鴻書",
+      "abbr": "鴻",
+      "chapter": "3",
+      "id": "nah",
+      "video": ""
+    },
+    "hab": {
+      "fullName": "哈巴谷書",
+      "abbr": "哈",
+      "chapter": "3",
+      "id": "hab",
+      "video": ""
+    },
+    "zeph": {
+      "fullName": "西番雅書",
+      "abbr": "番",
+      "chapter": "3",
+      "id": "zeph",
+      "video": ""
+    },
+    "hag": {
+      "fullName": "哈該書",
+      "abbr": "該",
+      "chapter": "2",
+      "id": "hag",
+      "video": ""
+    },
+    "zech": {
+      "fullName": "撒迦利亞書",
+      "abbr": "亞",
+      "chapter": "14",
+      "id": "zech",
+      "video": ""
+    },
+    "mal": {
+      "fullName": "瑪拉基書",
+      "abbr": "瑪",
+      "chapter": "4",
+      "id": "mal",
+      "video": ""
+    }
+  },
+
+  "newTestament": {
+    "matthew": {
+      "fullName": "馬太福音",
+      "abbr": "太",
+      "chapter": "28",
+      "id": "matthew",
+      "video": ""
+    },
+    "mark": {
+      "fullName": "馬可福音",
+      "abbr": "可",
+      "chapter": "16",
+      "id": "mark",
+      "video": ""
+    },
+    "luke": {
+      "fullName": "路加福音",
+      "abbr": "路",
+      "chapter": "24",
+      "id": "luke",
+      "video": ""
+    },
+    "john": {
+      "fullName": "約翰福音",
+      "abbr": "約",
+      "chapter": "21",
+      "id": "john",
+      "video": ""
+    },
+    "acts": {
+      "fullName": "使徒行傳",
+      "abbr": "徒",
+      "chapter": "28",
+      "id": "acts",
+      "video": ""
+    },
+    "romans": {
+      "fullName": "羅馬書",
+      "abbr": "羅",
+      "chapter": "16",
+      "id": "romans",
+      "video": ""
+    },
+    "1co": {
+      "fullName": "哥林多前書",
+      "abbr": "林前",
+      "chapter": "16",
+      "id": "1co",
+      "video": ""
+    },
+    "2co": {
+      "fullName": "哥林多後書",
+      "abbr": "林後",
+      "chapter": "16",
+      "id": "2co",
+      "video": ""
+    },
+    "ca": {
+      "fullName": "加拉太書",
+      "abbr": "加",
+      "chapter": "6",
+      "id": "ga",
+      "video": ""
+    },
+    "ep": {
+      "fullName": "以弗所書",
+      "abbr": "弗",
+      "chapter": "6",
+      "id": "ep",
+      "video": ""
+    },
+    "philippians": {
+      "fullName": "腓立比書",
+      "abbr": "腓",
+      "chapter": "4",
+      "id": "philippians",
+      "video": ""
+    },
+    "col": {
+      "fullName": "歌羅西書",
+      "abbr": "西",
+      "chapter": "4",
+      "id": "col",
+      "video": ""
+    },
+    "1th": {
+      "fullName": "帖撒羅尼迦前書",
+      "abbr": "帖前",
+      "chapter": "5",
+      "id": "1th",
+      "video": ""
+    },
+    "2th": {
+      "fullName": "帖撒羅尼迦後書",
+      "abbr": "帖後",
+      "chapter": "3",
+      "id": "2th",
+      "video": ""
+    },
+    "1ti": {
+      "fullName": "提摩太前書",
+      "abbr": "提前",
+      "chapter": "6",
+      "id": "1ti",
+      "video": ""
+    },
+    "2ti": {
+      "fullName": "提摩太後書",
+      "abbr": "提後",
+      "chapter": "4",
+      "id": "2ti",
+      "video": ""
+    },
+    "titus": {
+      "fullName": "提多書",
+      "abbr": "多",
+      "chapter": "3",
+      "id": "titus",
+      "video": ""
+    },
+    "philemon": {
+      "fullName": "腓利門書",
+      "abbr": "門",
+      "chapter": "1",
+      "id": "philemon",
+      "video": ""
+    },
+    "hebrews": {
+      "fullName": "希伯來書",
+      "abbr": "來",
+      "chapter": "13",
+      "id": "hebrews",
+      "video": ""
+    },
+    "james": {
+      "fullName": "雅各書",
+      "abbr": "雅",
+      "chapter": "5",
+      "id": "james",
+      "video": ""
+    },
+    "1peter": {
+      "fullName": "彼得前書",
+      "abbr": "彼前",
+      "chapter": "5",
+      "id": "1peter",
+      "video": ""
+    },
+    "2peter": {
+      "fullName": "彼得後書",
+      "abbr": "彼後",
+      "chapter": "3",
+      "id": "2peter",
+      "video": ""
+    },
+    "1john": {
+      "fullName": "約翰壹書",
+      "abbr": "約一",
+      "chapter": "5",
+      "id": "1john",
+      "video": ""
+    },
+    "2john": {
+      "fullName": "約翰貳書",
+      "abbr": "約二",
+      "chapter": "1",
+      "id": "2john",
+      "video": ""
+    },
+    "3john": {
+      "fullName": "約翰叁書",
+      "abbr": "約三",
+      "chapter": "1",
+      "id": "3john",
+      "video": ""
+    },
+    "jude": {
+      "fullName": "猶大書",
+      "abbr": "猶",
+      "chapter": "1",
+      "id": "jude",
+      "video": ""
+    },
+    "rev": {
+      "fullName": "啟示錄",
+      "abbr": "啟",
+      "chapter": "22",
+      "id": "rev",
+      "video": ""
+    }
+  },
+  "bibleProject":{
+    "gen1":{"book":"gen", "chapter":"1", "youTubeLink":"https://youtu.be/GQI72THyO5I"},
+    "gen12":{"book":"gen", "chapter":"12", "youTubeLink":"https://youtu.be/sT67Uat1uoE"},
+    "ex1":{"book":"ex", "chapter":"1", "youTubeLink":"https://youtu.be/mjnVgCHbLp0"},
+    "ex19":{"book":"ex", "chapter":"19", "youTubeLink":"https://youtu.be/dbNqDrBMoBo"},
+    "lev1":{"book":"lev", "chapter":"1", "youTubeLink":"https://youtu.be/WEKWQtAd_x0"},
+    "num1":{"book":"num", "chapter":"1", "youTubeLink":"https://youtu.be/M8LQxjTLLSI"},
+    "de1":{"book":"de", "chapter":"1", "youTubeLink":"https://youtu.be/q5QEH9bH8AU"},
+    "jos1":{"book":"jos", "chapter":"1", "youTubeLink":"https://youtu.be/JqOqJlFF_eU"},
+    "ju1":{"book":"ju", "chapter":"1", "youTubeLink":"https://youtu.be/kOYy8iCfIJ4"},
+    "ruth1":{"book":"ruth", "chapter":"1", "youTubeLink":"https://youtu.be/qBJDorKYt4U"},
+    "1sam1":{"book":"1sam", "chapter":"1", "youTubeLink":"https://youtu.be/LO2pgCfIES4"},
+    "2sam1":{"book":"2sam", "chapter":"1", "youTubeLink":"https://youtu.be/Yr2ksoRGI7A"},
+    "1ki1":{"book":"1ki", "chapter":"1", "youTubeLink":"https://youtu.be/JPRnyTvBBvY"},
+    "2ki1":{"book":"2ki", "chapter":"1", "youTubeLink":"https://youtu.be/JPRnyTvBBvY"},
+    "1ch1":{"book":"1ch", "chapter":"1", "youTubeLink":"https://youtu.be/LYfB3PSXPwU"},
+    "2ch1":{"book":"2ch", "chapter":"1", "youTubeLink":"https://youtu.be/LYfB3PSXPwU"},
+    "ezra1":{"book":"ezra", "chapter":"1", "youTubeLink":"https://youtu.be/S4pg2h8DOM4"},
+    "neh1":{"book":"neh", "chapter":"1", "youTubeLink":"https://youtu.be/S4pg2h8DOM4"},
+    "esther1":{"book":"esther", "chapter":"1", "youTubeLink":"https://youtu.be/1rWHVawIgN4"},
+    "job1":{"book":"job", "chapter":"1", "youTubeLink":"https://youtu.be/bNIMmTOi8ZM"},
+    "ps1":{"book":"ps", "chapter":"1", "youTubeLink":"https://youtu.be/jpO8JuzIylo"},
+    "pro1":{"book":"pro", "chapter":"1", "youTubeLink":"https://youtu.be/JwE3Vx6i9DY"},
+    "ec1":{"book": "ec", "chapter":"1", "youTubeLink":"https://youtu.be/jd0dyXVaJKI"},
+    "song1":{"book":"song", "chapter":"1", "youTubeLink":"https://youtu.be/yt4nwunekPo"},
+    "isa1":{"book":"isa", "chapter":"1", "youTubeLink":"https://youtu.be/rQmNNx-AmQw"},
+    "isa40":{"book":"isa", "chapter":"40", "youTubeLink":"https://youtu.be/iZE4a8phsXE"},
+    "jer1":{"book":"jer", "chapter":"1", "youTubeLink":"https://youtu.be/2AUkRzY9U6A"},
+    "lam1":{"book":"lam", "chapter":"1", "youTubeLink":"https://youtu.be/zfsTV--lyos"},
+    "ez1":{"book":"ez", "chapter":"1", "youTubeLink":"https://youtu.be/vGpgkahAMnA"},
+    "ez34":{"book":"ez", "chapter":"34", "youTubeLink":"https://youtu.be/SDeCWW_Bnyw"},
+    "dan1":{"book":"dan", "chapter":"1", "youTubeLink":"https://youtu.be/Zo17j-YaI9k"},
+    "hos1":{"book":"hos", "chapter":"1", "youTubeLink":"https://youtu.be/N7WRyZPMq8o"},
+    "joel1":{"book":"joel", "chapter":"1", "youTubeLink":"https://youtu.be/zQLazbgz90c"},
+    "amos1":{"book": "amos", "chapter":"1", "youTubeLink":"https://youtu.be/VMtdBwmPft4"},
+    "obad1":{"book":"obad", "chapter":"1", "youTubeLink":"https://youtu.be/1XTA7YtzAHY"},
+    "jonah1":{"book":"jonah", "chapter":"1", "youTubeLink":"https://youtu.be/vj31iAXbfls"},
+    "mic1":{"book":"mic", "chapter":"1", "youTubeLink":"https://youtu.be/3uic7uzXif4"},
+    "nah1":{"book":"nah", "chapter":"1", "youTubeLink":"https://youtu.be/FFDlrnZxuBI"},
+    "hab1":{"book":"hab", "chapter":"1", "youTubeLink":"https://youtu.be/YRu8UXo4dAg"},
+    "zeph1":{"book":"zeph", "chapter":"1", "youTubeLink":"https://youtu.be/9A-_t5Eq_as"},
+    "hag1":{"book":"hag", "chapter":"1", "youTubeLink":"https://youtu.be/uruNa6kRp_Y"},
+    "zech1":{"book":"zech", "chapter":"1", "youTubeLink":"https://youtu.be/_106IfO6Kc0"},
+    "mal1":{"book":"mal", "chapter":"1", "youTubeLink":"https://youtu.be/8T57vKj-Ix8"},    
+    "matthew1":{"book": "matthew", "chapter":"1", "youTubeLink":"https://youtu.be/AOZpAGO2DEo"},
+    "matthew14":{"book":"matthew", "chapter":"14", "youTubeLink":"https://youtu.be/qN7lWSE2rFU"},
+    "mark1":{"book":"mark", "chapter":"1", "youTubeLink":"https://youtu.be/QGXM9tGFJHk"},
+    "luke1":{"book":"luke", "chapter":"1", "youTubeLink":"https://youtu.be/ZJuoMEko3Ps"},
+    "luke10":{"book":"luke", "chapter":"10", "youTubeLink":"https://youtu.be/wejDO8LuhTw"},
+    "john1":{"book":"john", "chapter":"1", "youTubeLink":"https://youtu.be/p2MVilLGm7M"},
+    "john13":{"book":"john", "chapter":"13", "youTubeLink":"https://youtu.be/VfJLO5O8390"},
+    "acts1":{"book":"acts", "chapter":"1", "youTubeLink":"https://youtu.be/u_Yj4ssfUpo"},
+    "acts13":{"book":"acts", "chapter":"13", "youTubeLink":"https://youtu.be/2AK84Uo1kBo"},
+    "romans1":{"book":"romans", "chapter":"1", "youTubeLink":"https://youtu.be/ej_6dVdJSIU"},
+    "romans5":{"book":"romans", "chapter":"5", "youTubeLink":"https://youtu.be/z1b3iJHPW20"},
+    "1co1":{"book":"1co", "chapter":"1", "youTubeLink":"https://youtu.be/H6F5tLnoP_A"},
+    "2co1":{"book":"2co", "chapter":"1", "youTubeLink":"https://youtu.be/3lfPK2vfC54"},
+    "ga1":{"book":"ga", "chapter":"1", "youTubeLink":"https://youtu.be/py1jHoYw2VI"},
+    "ep1":{"book":"ep", "chapter":"1", "youTubeLink":"https://youtu.be/Y71r-T98E2Q"},
+    "philippians1":{"book": "philippians", "chapter":"1", "youTubeLink":"https://youtu.be/oE9qqW1-BkU", "lang":"en"},
+    "col1":{"book":"col", "chapter":"1", "youTubeLink":"https://youtu.be/pXTXlDxQsvc", "lang":"en"},
+    "1th1":{"book":"1th", "chapter":"1", "youTubeLink":"https://youtu.be/No7Nq6IX23c", "lang":"en"},
+    "2th1":{"book":"2th", "chapter":"1", "youTubeLink":"https://youtu.be/kbPBDKOn1cc", "lang":"en"},
+    "1ti1":{"book":"1ti", "chapter":"1", "youTubeLink":"https://youtu.be/QW86miR9CCY"},
+    "2ti1":{"book":"2ti", "chapter":"1", "youTubeLink":"https://youtu.be/Brz5x2GH0mQ"},
+    "titus1":{"book":"titus", "chapter":"1", "youTubeLink":"https://youtu.be/1MHnCWk3-_M"},
+    "philemon1":{"book":"philemon", "chapter":"1", "youTubeLink":"https://youtu.be/0oyEn7ldxQk"},
+    "hebrews1":{"book":"hebrews", "chapter":"1", "youTubeLink":"https://youtu.be/rigsTqypZ7w"},
+    "james1":{"book":"james", "chapter":"1", "youTubeLink":"https://youtu.be/vC_4a0MtpCY"},
+    "1peter1":{"book": "1peter", "chapter":"1", "youTubeLink":"https://youtu.be/WhP7AZQlzCg", "lang":"en"},
+    "2peter2":{"book":"2peter", "chapter":"1", "youTubeLink":"https://youtu.be/nZdkuWyW-AU"},
+    "1john1":{"book":"1john", "chapter":"1", "youTubeLink":"https://youtu.be/Z4gzHjI8tIE"},
+    "2john1":{"book":"2john", "chapter":"1", "youTubeLink":"https://youtu.be/Z4gzHjI8tIE"},
+    "3john1":{"book":"3john", "chapter":"1", "youTubeLink":"https://youtu.be/Z4gzHjI8tIE"},
+    "jude1":{"book":"jude", "chapter":"1", "youTubeLink":"https://youtu.be/9sg9M8mSB8E"},
+    "rev1":{"book":"rev", "chapter":"1", "youTubeLink":"https://youtu.be/5nvVVcYD-0w", "lang":"en"},
+    "rev12":{"book":"rev", "chapter":"12", "youTubeLink":"https://youtu.be/QpnIrbq2bKo", "lang":"en"}
+  }
+}
