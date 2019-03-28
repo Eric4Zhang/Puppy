@@ -4,269 +4,235 @@
       "fullName": "創世記",
       "abbr": "創",
       "chapter": "50",
-      "video": "GQI72THyO5I,sT67Uat1uoE"
+      "next": "ex"
     },
     "ex": {
       "fullName": "出埃及記",
       "abbr": "出",
       "chapter": "40",
-      "video": "mjnVgCHbLp0,dbNqDrBMoBo"
+      "next": "lev"
     },
     "lev": {
       "fullName": "利未記",
       "abbr": "利",
       "chapter": "27",
-      "video": "WEKWQtAd_x0"
+      "next": "num"
     },
     "num": {
       "fullName": "民數記",
       "abbr": "民",
       "chapter": "36",
-      "video": "qBJDorKYt4U"
+      "next": "de"
     },
     "de": {
       "fullName": "申命記",
       "abbr": "申",
       "chapter": "34",
-      "video": "q5QEH9bH8AU"
+      "next": "jos"
     },
     "jos": {
       "fullName": "約書亞記",
       "abbr": "書",
       "chapter": "24",
-      "id": "jos",
-      "video": "JqOqJlFF_eU"
+      "next": "ju"
     },
     "ju": {
       "fullName": "士師記",
       "abbr": "士",
       "chapter": "21",
-      "id": "ju",
-      "video": "kOYy8iCfIJ4"
+      "next": "ruth"
     },
     "ruth": {
       "fullName": "路得記",
       "abbr": "得",
       "chapter": "4",
-      "id": "ruth",
-      "video": "qBJDorKYt4U"
+      "next": "1sam"
     },
     "1sam": {
       "fullName": "撒母耳記上",
       "abbr": "撒上",
       "chapter": "31",
-      "id": "1sam",
-      "video": ""
+      "next": "2sam"
     },
     "2sam": {
       "fullName": "撒母耳記下",
       "abbr": "撒下",
       "chapter": "24",
-      "id": "2sam",
-      "video": ""
+      "next": "1ki"
     },
     "1ki": {
       "fullName": "列王紀上",
       "abbr": "王上",
       "chapter": "22",
-      "id": "1ki",
-      "video": ""
+      "next": "2ki"
     },
     "2ki": {
       "fullName": "列王紀下",
       "abbr": "王下",
       "chapter": "25",
-      "id": "2ki",
-      "video": ""
+      "next": "1ch"
     },
     "1ch": {
       "fullName": "歷代志上",
       "abbr": "代上",
       "chapter": "29",
-      "id": "1ch",
-      "video": ""
+      "next": "2ch"
     },
     "2ch": {
       "fullName": "歷代志下",
       "abbr": "代下",
       "chapter": "36",
-      "id": "2ch",
-      "video": ""
+      "next": "ezra"
     },
     "ezra": {
       "fullName": "以斯拉記",
       "abbr": "拉",
       "chapter": "10",
-      "id": "ezra",
-      "video": ""
+      "next": "neh"
     },
     "neh": {
       "fullName": "尼希米記",
       "abbr": "尼",
       "chapter": "13",
-      "id": "neh",
-      "video": ""
+      "next": "esther"
     },
     "esther": {
       "fullName": "以斯帖記",
       "abbr": "斯",
       "chapter": "10",
-      "id": "esther",
-      "video": ""
+      "next": "job"
     },
     "job": {
       "fullName": "約伯記",
       "abbr": "伯",
       "chapter": "42",
-      "id": "job",
-      "video": ""
+      "next": "ps"
     },
     "ps": {
       "fullName": "詩篇",
       "abbr": "詩",
       "chapter": "150",
-      "id": "ps",
-      "video": ""
+      "next": "pro"
     },
     "pro": {
       "fullName": "箴言",
       "abbr": "箴",
       "chapter": "31",
-      "id": "pro",
-      "video": ""
+      "next": "ec"
     },
     "ec": {
       "fullName": "傳道書",
       "abbr": "傳",
       "chapter": "12",
-      "id": "ec",
-      "video": ""
+      "next": "song"
     },
     "song": {
       "fullName": "雅歌",
       "abbr": "歌",
       "chapter": "8",
-      "id": "song",
-      "video": ""
+      "next": "isa"
     },
     "isa": {
       "fullName": "以賽亞書",
       "abbr": "賽",
       "chapter": "66",
-      "id": "isa",
-      "video": ""
+      "next": "jer"
     },
     "jer": {
       "fullName": "耶利米書",
       "abbr": "耶",
       "chapter": "52",
-      "id": "jer",
-      "video": ""
+      "next": "lam"
     },
     "lam": {
       "fullName": "耶利米哀歌",
       "abbr": "哀",
       "chapter": "5",
-      "id": "lam",
-      "video": ""
+      "next": "ez"
     },
     "ez": {
       "fullName": "以西結書",
       "abbr": "結",
       "chapter": "48",
-      "id": "ez",
-      "video": ""
+      "next": "dan"
     },
     "dan": {
       "fullName": "但以理書",
       "abbr": "但",
       "chapter": "12",
-      "id": "dan",
-      "video": ""
+      "next": "hos"
     },
     "hos": {
       "fullName": "何西阿書",
       "abbr": "何",
       "chapter": "14",
-      "id": "hos",
-      "video": ""
+      "next": "joel"
     },
     "joel": {
       "fullName": "約珥書",
       "abbr": "珥",
       "chapter": "3",
-      "id": "joel",
-      "video": ""
+      "next": "amos"
     },
     "amos": {
       "fullName": "阿摩司書",
       "abbr": "摩",
       "chapter": "9",
-      "id": "amos",
-      "video": ""
+      "next": "obad"
     },
     "obad": {
       "fullName": "俄巴底亞書",
       "abbr": "俄",
       "chapter": "1",
-      "id": "obad",
-      "video": ""
+      "next": "jonah"
     },
     "jonah": {
       "fullName": "約拿書",
       "abbr": "拿",
       "chapter": "4",
-      "id": "jonah",
-      "video": ""
+      "next": "mic"
     },
     "mic": {
       "fullName": "彌迦書",
       "abbr": "彌",
       "chapter": "7",
-      "id": "mic",
-      "video": ""
+      "next": "nah"
     },
     "nah": {
       "fullName": "那鴻書",
       "abbr": "鴻",
       "chapter": "3",
-      "id": "nah",
-      "video": ""
+      "next": "hab"
     },
     "hab": {
       "fullName": "哈巴谷書",
       "abbr": "哈",
       "chapter": "3",
-      "id": "hab",
-      "video": ""
+      "next": "zeph"
     },
     "zeph": {
       "fullName": "西番雅書",
       "abbr": "番",
       "chapter": "3",
-      "id": "zeph",
-      "video": ""
+      "next": "hag"
     },
     "hag": {
       "fullName": "哈該書",
       "abbr": "該",
       "chapter": "2",
-      "id": "hag",
-      "video": ""
+      "next": "zech"
     },
     "zech": {
       "fullName": "撒迦利亞書",
       "abbr": "亞",
       "chapter": "14",
-      "id": "zech",
-      "video": ""
+      "next": "mal"
     },
     "mal": {
       "fullName": "瑪拉基書",
       "abbr": "瑪",
       "chapter": "4",
-      "id": "mal",
-      "video": ""
+      "next": "matthew"
     }
   },
 
@@ -275,190 +241,163 @@
       "fullName": "馬太福音",
       "abbr": "太",
       "chapter": "28",
-      "id": "matthew",
-      "video": ""
+      "next": "mark"
     },
     "mark": {
       "fullName": "馬可福音",
       "abbr": "可",
       "chapter": "16",
-      "id": "mark",
-      "video": ""
+      "next": "luke"
     },
     "luke": {
       "fullName": "路加福音",
       "abbr": "路",
       "chapter": "24",
-      "id": "luke",
-      "video": ""
+      "next": "john"
     },
     "john": {
       "fullName": "約翰福音",
       "abbr": "約",
       "chapter": "21",
-      "id": "john",
-      "video": ""
+      "next": "acts"
     },
     "acts": {
       "fullName": "使徒行傳",
       "abbr": "徒",
       "chapter": "28",
-      "id": "acts",
-      "video": ""
+      "next": "romans"
     },
     "romans": {
       "fullName": "羅馬書",
       "abbr": "羅",
       "chapter": "16",
-      "id": "romans",
-      "video": ""
+      "next": "1co"
     },
     "1co": {
       "fullName": "哥林多前書",
       "abbr": "林前",
       "chapter": "16",
-      "id": "1co",
-      "video": ""
+      "next": "2co"
     },
     "2co": {
       "fullName": "哥林多後書",
       "abbr": "林後",
       "chapter": "16",
-      "id": "2co",
-      "video": ""
+      "next": "ga"
     },
-    "ca": {
+    "ga": {
       "fullName": "加拉太書",
       "abbr": "加",
       "chapter": "6",
-      "id": "ga",
-      "video": ""
+      "next": "ep"
     },
     "ep": {
       "fullName": "以弗所書",
       "abbr": "弗",
       "chapter": "6",
-      "id": "ep",
-      "video": ""
+      "next": "philippians"
     },
     "philippians": {
       "fullName": "腓立比書",
       "abbr": "腓",
       "chapter": "4",
-      "id": "philippians",
-      "video": ""
+      "next": "col"
     },
     "col": {
       "fullName": "歌羅西書",
       "abbr": "西",
       "chapter": "4",
-      "id": "col",
-      "video": ""
+      "next": "1th"
     },
     "1th": {
       "fullName": "帖撒羅尼迦前書",
       "abbr": "帖前",
       "chapter": "5",
-      "id": "1th",
-      "video": ""
+      "next": "2th"
     },
     "2th": {
       "fullName": "帖撒羅尼迦後書",
       "abbr": "帖後",
       "chapter": "3",
-      "id": "2th",
-      "video": ""
+      "next": "1ti"
     },
     "1ti": {
       "fullName": "提摩太前書",
       "abbr": "提前",
       "chapter": "6",
-      "id": "1ti",
-      "video": ""
+      "next": "2ti"
     },
     "2ti": {
       "fullName": "提摩太後書",
       "abbr": "提後",
       "chapter": "4",
-      "id": "2ti",
-      "video": ""
+      "next": "titus"
     },
     "titus": {
       "fullName": "提多書",
       "abbr": "多",
       "chapter": "3",
-      "id": "titus",
-      "video": ""
+      "next": "philemon"
     },
     "philemon": {
       "fullName": "腓利門書",
       "abbr": "門",
       "chapter": "1",
-      "id": "philemon",
-      "video": ""
+      "next": "hebrews"
     },
     "hebrews": {
       "fullName": "希伯來書",
       "abbr": "來",
       "chapter": "13",
-      "id": "hebrews",
-      "video": ""
+      "next": "james"
     },
     "james": {
       "fullName": "雅各書",
       "abbr": "雅",
       "chapter": "5",
-      "id": "james",
-      "video": ""
+      "next": "1peter"
     },
     "1peter": {
       "fullName": "彼得前書",
       "abbr": "彼前",
       "chapter": "5",
-      "id": "1peter",
-      "video": ""
+      "next": "2peter"
     },
     "2peter": {
       "fullName": "彼得後書",
       "abbr": "彼後",
       "chapter": "3",
-      "id": "2peter",
-      "video": ""
+      "next": "1john"
     },
     "1john": {
       "fullName": "約翰壹書",
       "abbr": "約一",
       "chapter": "5",
-      "id": "1john",
-      "video": ""
+      "next": "2john"
     },
     "2john": {
       "fullName": "約翰貳書",
       "abbr": "約二",
       "chapter": "1",
-      "id": "2john",
-      "video": ""
+      "next": "3john"
     },
     "3john": {
       "fullName": "約翰叁書",
       "abbr": "約三",
       "chapter": "1",
-      "id": "3john",
-      "video": ""
+      "next": "jude"
     },
     "jude": {
       "fullName": "猶大書",
       "abbr": "猶",
       "chapter": "1",
-      "id": "jude",
-      "video": ""
+      "next": "rev"
     },
     "rev": {
       "fullName": "啟示錄",
       "abbr": "啟",
       "chapter": "22",
-      "id": "rev",
-      "video": ""
+      "next": ""
     }
   },
   "bibleProject":{

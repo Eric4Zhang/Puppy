@@ -19,7 +19,9 @@ export default function Chapter(props) {
   const [verses, setVerses] = useState({});
   
   const bookName= localStorage.getItem("book");
-  const title = Object.keys(catalog.oldTestament).indexOf(bookName) === -1 ? catalog.newTestament[bookName].fullName : catalog.oldTestament[bookName].fullName;
+  const bookInfo = Object.keys(catalog.oldTestament).indexOf(bookName) === -1 ? catalog.newTestament[bookName] : catalog.oldTestament[bookName];
+  const title = bookInfo.fullName;
+  const chaptersNumber= parseInt(bookInfo.chapter);
   const videoUrl = Object.keys(catalog.bibleProject).indexOf(bookName+chapterIndex) === -1 ? null : catalog.bibleProject[bookName+chapterIndex].youTubeLink.replace("https://youtu.be", "https://www.youtube.com/embed");
   const classNames = videoUrl === null ? "d-none" : "mt-2 p-5";
 
@@ -39,7 +41,17 @@ export default function Chapter(props) {
   }
 
   function handleRight(){
-    props.history.push(props.location.pathname.replace(/([^/]*)$/, (parseInt(chapterIndex)+ 1).toString()));
+    var nextIndex = parseInt(chapterIndex) + 1;
+    var nextBookName = bookName;
+    if(nextIndex >= chaptersNumber) 
+    {
+      nextBookName = bookInfo.next;
+      localStorage.setItem("book", nextBookName);
+      nextIndex = 1;
+    }
+    var nextChapterUrl = "/omac-app/bible/" + nextBookName + "/" + nextIndex;
+    props.history.push(nextChapterUrl);
+    //props.history.push(props.location.pathname.replace(/([^/]*)$/, nextIndex.toString()));
   }
 
   function handleSwipe(direction){
