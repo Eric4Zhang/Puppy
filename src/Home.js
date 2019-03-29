@@ -19,6 +19,7 @@ export default function Home() {
       <div className="my-navbar w-100" id="myNavbar">
         <AppMenu />
       </div>
+      <div className="d-none">
       <Jumbotron className="mb-4 App-header b-light" id="about">
         <h2 className="shadow-lg mb-5 p-3">
           <span className="text-secondary">{t("about")}</span>
@@ -362,6 +363,7 @@ export default function Home() {
           </Card>
         </CardDeck>
       </Jumbotron>
+      </div>
     </div>
   );
 }
