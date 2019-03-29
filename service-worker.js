@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/omac-app/precache-manifest.8118f3907a38b83b173ba75bc5dd8934.js"
+  "/omac-app/precache-manifest.ea387c43d06b3d4d22549004dbff19e7.js"
 );
 
 workbox.clientsClaim();
