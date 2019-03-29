@@ -8,3 +8,44 @@
     opacity: 1;
     transition: opacity 250ms ease-in;
   }
+
+  .my-navButton:active{
+    border: 0ch;
+    background-color: burlywood;
+  }
+
+  .my-bookName{
+    width: 8rem; 
+    height: 8rem;
+    padding: 2rem;
+  }
+
+  .my-title{
+    font-size: 125%;
+  }
+
+  .my-sub-title{
+    font-size: 100%;
+  }
+
+  @media screen and (max-width: 666.98px){
+    .my-navButton{
+      display: none;
+    }
+
+    .my-title{
+      font-size: 80%;
+    }
+
+    .my-sub-title{
+      font-size: 60%;
+    }
+  
+
+    .my-bookName{
+      width: 4rem;
+      height: 4rem;        
+      padding: 0rem;    
+    }
+  }
+  

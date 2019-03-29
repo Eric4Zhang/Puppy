@@ -10,10 +10,9 @@ import "./fade.css";
 export default function Scripture() {
   return (
     <div>
-      <Container className="flex-row-reverse mt-2 sticky-top">        
-        <Link className="mr-4" to={"/omac-app/bible"}>卷</Link>
+      <Container className="my-2 p-2 sticky-top bg-light shadow">        
+        <Link className="mr-2" to={"/omac-app/bible"}>卷</Link>
         <Link to={"/omac-app/bible/" + localStorage.getItem("book")}>章</Link>
-        <hr/>
       </Container>
       
       <CSSTransition classNames="fade" timeout={300}>

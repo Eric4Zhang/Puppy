@@ -23,7 +23,7 @@ export default function ChapterList(props) {
               onClick={() => localStorage.setItem("chapter", i)}
             >
               <Card.Body>
-                <Card.Title>{i}</Card.Title>
+                <Card.Title style={{whiteSpace: "nowrap"}}>{i}</Card.Title>
               </Card.Body>
             </Link>
           </Card>
