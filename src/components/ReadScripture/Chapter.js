@@ -9,6 +9,7 @@ import jQuery from "jquery";
 import ReactTouchEvents from "react-touch-events";
 import { ArrowRightCircle, ArrowLeftCircle } from "react-feather";
 import "./fade.css";
+import backGround from "../../assets/images/background.jpg";
 
 export default function Chapter(props) {
   const getBibleApi = "https://getbible.net/json?";
@@ -69,10 +70,10 @@ export default function Chapter(props) {
   function handleSwipe(direction) {
     switch (direction) {
       case "left":
-        handleLeftTap();
+        handleRight();
         break;
       case "right":
-        handleRight();
+        handleLeftTap();
         break;
       default:
     }
@@ -102,7 +103,7 @@ export default function Chapter(props) {
         </Button>
       </Col>
       <Col>
-        <Container className="mt-2">
+        <Container className="mt-2" style={{backgroundImage: 'url(' + backGround + ')', backgroundSize: 'cover'}}>
           <h2>{title + " : " + chapterIndex}</h2>
           <Container className={classNames}>
             <ResponsiveEmbed aspectRatio="16by9">
@@ -117,7 +118,7 @@ export default function Chapter(props) {
           </Container>
 
           <ReactTouchEvents
-            onTap={() => handleRight()}
+            // onTap={() => handleRight()}
             onSwipe={direction => handleSwipe(direction)}
           >
             <Container>

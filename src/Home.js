@@ -11,7 +11,7 @@ import MyCarousel from "./components/MyCarousel";
 export default function Home() {
   const { t, i18n } = useTranslation("translations");
   return (
-    <div>
+    <div className="h-100">
       <MyCarousel
         jsonFileUrl="./assets/documents/events-images.json"
         id="home"
