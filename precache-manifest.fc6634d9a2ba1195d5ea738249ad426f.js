@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/omac-app/static/js/runtime~main.5f93b1a2.js"
   },
   {
-    "revision": "8239d4daa8fde3e02ed0",
-    "url": "/omac-app/static/js/main.638a15c9.chunk.js"
+    "revision": "8c09ba67f68411a6fcd9",
+    "url": "/omac-app/static/js/main.da214cc2.chunk.js"
   },
   {
     "revision": "6af2f7e82f9fff63bfbb",
     "url": "/omac-app/static/js/2.674231ed.chunk.js"
   },
   {
-    "revision": "8239d4daa8fde3e02ed0",
-    "url": "/omac-app/static/css/main.ef026700.chunk.css"
+    "revision": "8c09ba67f68411a6fcd9",
+    "url": "/omac-app/static/css/main.1dc98325.chunk.css"
   },
   {
-    "revision": "610dd86ee6f8a214c4d65ccbbb5d80d5",
+    "revision": "affecdcade7f907db8852075b892f7b4",
     "url": "/omac-app/index.html"
   }
 ];
