@@ -1,7 +1,5 @@
 import "./App.css";
 
-import MyFooter from "./components/MyFooter";
-
 import React from "react";
 import { Switch, Route} from "react-router-dom";
 import Home from "./Home";
@@ -18,7 +16,7 @@ export function App() {
         <Route path="/omac-app/bible" component={Scripture}/>   
         <Route path="/omac-app/contact" component={Contact}/>
       </Switch>
-      <MyFooter id="contact" />
+      
     </div>
   );
 }

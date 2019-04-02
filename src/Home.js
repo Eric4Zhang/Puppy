@@ -7,6 +7,7 @@ import { useTranslation } from "react-i18next";
 
 import AppMenu from "./components/AppMenu";
 import MyCarousel from "./components/MyCarousel";
+import MyFooter from "./components/MyFooter";
 
 export default function Home() {
   const { t, i18n } = useTranslation("translations");
@@ -364,6 +365,7 @@ export default function Home() {
         </CardDeck>
       </Jumbotron>
       </div>
+      <MyFooter id="contact" />
     </div>
   );
 }

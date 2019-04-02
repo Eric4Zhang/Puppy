@@ -1,4 +1,37 @@
 
+@keyframes slideOutLeft{
+  from{
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0,0,0);
+  }
+  to{
+    visibility: hidden;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0,0);
+  }
+}
+
+@keyframes slideInLeft{
+  from{
+    -webkit-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%,0,0);
+    visibility: visible;
+  }
+  to{
+    visibility: hidden;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0,0);
+  }
+}
+
+.page-enter{
+  animation: slideInLeft 0.2s forwards;  
+}
+
+.page-exit{
+  animation: slideOutLeft 0.2s forwards;  
+}
+
 .fade-appear
 .fade-enter {
     opacity: 0;
@@ -37,6 +70,10 @@
 
   .my-sub-title{
     font-size: 100%;
+  }
+
+  .my-fullPage{
+    height: 100vh;
   }
 
   @media screen and (max-width: 666.98px){

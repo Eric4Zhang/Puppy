@@ -12,6 +12,12 @@ export default function ChapterList(props) {
   return (
     <div>
       <Container className="my-flexWrap">
+      <Container className="my-2 p-2 sticky-top bg-light shadow">
+        <Link className="mr-2" to={"/omac-app/bible"}>
+          卷
+        </Link>
+        <Link to={"/omac-app/bible/" + localStorage.getItem("book")}>章</Link>
+      </Container>
         {chaptersArray.map(i => (
           <Card
             className="mx-1 my-1"

@@ -10,6 +10,7 @@ import ReactTouchEvents from "react-touch-events";
 import { ArrowRightCircle, ArrowLeftCircle } from "react-feather";
 import "./fade.css";
 import backGround from "../../assets/images/background.jpg";
+import {Link} from "react-router-dom";
 
 export default function Chapter(props) {
   const getBibleApi = "https://getbible.net/json?";
@@ -92,8 +93,8 @@ export default function Chapter(props) {
   }, [book, chapterIndex]);
 
   return (
-    <Row>
-      <Col sm={1} className="my-navButton">
+    <Row className="h-100">
+      <Col sm={1} className="my-navButton h-100">
         <Button
           variant="outline-secondary h-100"
           className="border-0"
@@ -102,8 +103,15 @@ export default function Chapter(props) {
           <ArrowLeftCircle />
         </Button>
       </Col>
-      <Col>
-        <Container className="mt-2" style={{backgroundImage: 'url(' + backGround + ')', backgroundSize: 'cover'}}>
+      <Col className="h-100">
+      <Container className="my-2 p-2 sticky-top bg-light shadow">
+        <Link className="mr-2" to={"/omac-app/bible"}>
+          卷
+        </Link>
+        <Link to={"/omac-app/bible/" + localStorage.getItem("book")}>章</Link>
+      </Container>
+        {/* <Container className="mt-2 h-100" style={{backgroundImage: 'url(' + backGround + ')', backgroundSize: 'cover'}}> */}
+        <Container className="mt-2 h-100" >
           <h2>{title + " : " + chapterIndex}</h2>
           <Container className={classNames}>
             <ResponsiveEmbed aspectRatio="16by9">
@@ -121,7 +129,7 @@ export default function Chapter(props) {
             // onTap={() => handleRight()}
             onSwipe={direction => handleSwipe(direction)}
           >
-            <Container>
+            <div className="h-100">
               {Object.keys(verses).map(v => (
                 <span key={verses[v].verse_nr}>
                   <span className="text-muted font-weight-light">
@@ -130,11 +138,11 @@ export default function Chapter(props) {
                   <span>{verses[v].verse}</span>
                 </span>
               ))}
-            </Container>
+            </div>
           </ReactTouchEvents>
         </Container>
       </Col>
-      <Col sm={1} className="my-navButton">
+      <Col sm={1} className="my-navButton h-100">
         <Button
           variant="outline-secondary"
           className="border-0 h-100"
