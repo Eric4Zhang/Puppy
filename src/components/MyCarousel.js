@@ -14,10 +14,10 @@ export default function MyCarousel(props) {
   }, []);
 
   return (
-    <Carousel id={props.id} indicators={false} controls={false} className="shadow mb-4 h-100">
+    <Carousel id={props.id} indicators={false} controls={false} className="mb-4">
       {images.map(image => (
         <Carousel.Item key={image.id}>
-          <img className="d-block w-100" src={image.path} alt={image.caption} />
+          <img className="d-block w-100" src={image.path} alt={image.caption}/>
           <Carousel.Caption>
             <a href="\omac-app\bible"><h1 style={{fontFamily:"impact"}} className="text-uppercase text-success">Welcome</h1></a>
             <a href="#" className="mr-5"><span className="border-success border-bottom text-success">I'm new</span></a>

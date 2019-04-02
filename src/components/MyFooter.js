@@ -7,7 +7,7 @@ import { PhoneCall, Mail, Home, BookOpen } from "react-feather";
 export default function MyFooter(props) {
   return (
     <footer
-      className="App-header mt-2"
+      className="App-header mt-2 fixed-bottom"
       style={{ fontSize: "80%" }}
       id={props.id}
     >
