@@ -21,8 +21,8 @@ export default function AppMenu() {
           <Nav.Link href="#participate">{t("participate")}</Nav.Link>
           <Nav.Link href="#mission">{t("mission")}</Nav.Link>
           <Nav.Link href="#resources">{t("resource")}</Nav.Link>
-          <Nav.Link href="/omac-app/connect">{t("connect")}</Nav.Link>
-          <Nav.Link href="/omac-app/bible">读经</Nav.Link>
+          <Nav.Link href="contact">{t("connect")}</Nav.Link>
+          <Nav.Link href="bible">读经</Nav.Link>
         </Nav>
       </Navbar.Collapse>
       <Form inline className="float-md-right d-none">

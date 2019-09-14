@@ -2,6 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
+import {Home} from "react-feather";
 
 export default function ChapterList(props) {
   const chapters = parseInt(localStorage.getItem("chaptersCount"));
@@ -13,6 +14,9 @@ export default function ChapterList(props) {
     <div>
       <Container className="my-flexWrap">
       <Container className="my-2 p-2 sticky-top bg-light shadow">
+      <a className="mr-2" href="\">
+          Home
+        </a>
         <Link className="mr-2" to={"/omac-app/bible"}>
           卷
         </Link>

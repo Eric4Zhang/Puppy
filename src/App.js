@@ -11,10 +11,9 @@ export function App() {
     <div className="App">
       <Switch>
       <Route exact path="/" component={Home}/>
-      <Route exact path="/omac-app/index.html" component={Home}/>
-        <Route exact path="/omac-app" component={Home}/>        
-        <Route path="/omac-app/bible" component={Scripture}/>   
-        <Route path="/omac-app/contact" component={Contact}/>
+      <Route exact path="/index.html" component={Home}/>
+        <Route exact path="/bible" component={Scripture}/>   
+        <Route exact path="/contact" component={Contact}/>
       </Switch>
       
     </div>

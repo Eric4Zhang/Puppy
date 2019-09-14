@@ -7,9 +7,9 @@ import ResponsiveEmbed from "react-bootstrap/ResponsiveEmbed";
 import * as catalog from "./ScriptureInfo.json";
 import jQuery from "jquery";
 import ReactTouchEvents from "react-touch-events";
-import { ArrowRightCircle, ArrowLeftCircle } from "react-feather";
+import { ArrowRightCircle, ArrowLeftCircle, Home} from "react-feather";
 import "./fade.css";
-import backGround from "../../assets/images/background.jpg";
+// import backGround from "../../assets/images/background.jpg";
 import {Link} from "react-router-dom";
 
 export default function Chapter(props) {
@@ -105,6 +105,9 @@ export default function Chapter(props) {
       </Col>
       <Col className="h-100">
       <Container className="my-2 p-2 sticky-top bg-light shadow">
+      <a className="mr-2" href="\">
+          <Home />
+        </a>
         <Link className="mr-2" to={"/omac-app/bible"}>
           卷
         </Link>

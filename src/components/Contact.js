@@ -1,11 +1,19 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import ResponsiveEmbed from "react-bootstrap/ResponsiveEmbed";
+import Jumbotron from "react-bootstrap/Jumbotron";
+import Form from "react-bootstrap/Form";
+import ReactContactForm from "react-mail-form";
 
 export default function Contact() {
   return (
-    <Container className="p-5">
-    <h2 style={{fontFamily:"impact"}} className="text-muted">Ottawa Mandarin Alliance Church</h2>
+    <Container className="p-5, mt-2 text-left">    
+    <Jumbotron content>
+      <h1 style={{fontFamily:"impact"}} className="text-muted">Ottawa Mandarin Alliance Church</h1><br></br>
+      <h3 className="text-muted">Localtion: 550 Codd's Rd. Ottawa ON K1K 2G8</h3>
+      <h3 className="text-muted">Tel. +1 (613)236-7656</h3>
+      <h3 className="text-muted">Email: secretary@OttawaMandarinAlliance.ca</h3>
+      <h3 className="text-muted">Facebook: OMAC – Ottawa Mandarin Alliance Church</h3>
       <ResponsiveEmbed>
         <iframe
           title="map"
@@ -17,6 +25,16 @@ export default function Contact() {
           allowFullScreen="allowFullScreen"
         />
       </ResponsiveEmbed>
+
+      <h2>如果您是新朋友，您也可以填写下表与我们联系:</h2>
+      <h2>If you are new, you can contact us by filling up the form below:</h2>
+
+      <ReactContactForm to="inigrid@hotmail.com">
+        
+      </ReactContactForm>
+    </Jumbotron>
+    
+      
     </Container>
   );
 }
